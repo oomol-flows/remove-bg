@@ -1,4 +1,4 @@
-version: 0.0.3
+version: 0.0.5
 scripts:
   # Script executed when the container is first loaded
   # eg: bootstrap: pip install pandas
@@ -12,3 +12,4 @@ description: Remove Image Background
 releaseNotes: update images node
 dependencies:
   {}
+repository: https://github.com/oomol-flows/remove-bg
