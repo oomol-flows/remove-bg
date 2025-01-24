@@ -1,0 +1,13 @@
+{
+  "nodes": {
+    "remove-bg#1": {
+      "contentWidth": 450,
+      "rfNode": {
+        "position": {
+          "x": 255,
+          "y": -150
+        }
+      }
+    }
+  }
+}

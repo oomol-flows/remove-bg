@@ -1,0 +1,11 @@
+nodes:
+  - task: self::remove-bg
+    title: "Remove BG #1"
+    node_id: remove-bg#1
+    inputs_from:
+      - handle: image
+        value: /oomol-driver/oomol-storage/images/img_v3_02ii_5de9ac41-adcb-4267-944c-996701f4560g.jpg
+      - handle: key
+        value: ${{OO_SECRET:Custom,remove_bg,api_key}}
+      - handle: save_address
+        value: /oomol-driver/oomol-storage/book

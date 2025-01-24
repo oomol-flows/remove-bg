@@ -1,0 +1,14 @@
+version: 0.0.3
+scripts:
+  # Script executed when the container is first loaded
+  # eg: bootstrap: pip install pandas
+  bootstrap: |
+    npm install
+    pip install -r requirements.txt
+icon: https://package-assets.oomol.com/packages/remove-bg/0.0.3/files/package/icon.png
+name: remove-bg
+displayName: Remove BG
+description: Remove Image Background
+releaseNotes: update images node
+dependencies:
+  {}
